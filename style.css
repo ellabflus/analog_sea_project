@@ -1,0 +1,109 @@
+.blue-background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}
+
+.blue-background img {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 650px;
+	top: 50px;
+	height: 35px;
+}
+
+.white-form {
+	display: inline-block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	top: 125px;
+	left: 500px;
+	background-color: white;
+}
+
+.white-form h1 {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.form-itself {
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.form-itself form input {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: 50px;
+	width: 300px;
+}
+
+.submit-button {
+	display: inline-block;
+	position: absolute;
+	height: 55px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	left: 100px;
+	background-color: green;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+}
+
+.submit-button a {
+	display: block;
+	position: absolute;
+	left: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 80px;
+	color: blue;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+}
+
+.submit-button a:hover {
+	color: green;
+}
+
+.submit-button label {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.have-an-account {
+	display: inline-block;
+	position: absolute;
+	top: 500px;
+	color: white;
+}
+
+.have-an-account p {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.have-an-account a {
+	display: inline-block;
+	margin-left: 15px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
